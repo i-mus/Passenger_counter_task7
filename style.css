@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-image: url("images/train.PNG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(240, 4, 4);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.content{
+    max-width: 70%;
+    margin: 5% auto;
+    background: white;
+    border: 3px solid pink;
+    border-radius: 10px;
+}
+#counter{
+    font-size: 4em;
+    color: blueviolet;
+    text-shadow: 0px 4px 5px rgb(0, 0, 0);  
+}
+
+#people{
+    
+    
+    display: inline;
+    
+    
+}
+#btn-plus{
+    background-color: rgb(88, 177, 15);
+    padding: 8px 20px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    
+}
+#btn-plus:hover{
+    background-color: aquamarine;
+}
+
+#btn-save{
+    background-color: rgb(88, 177, 15);
+    width: 150px;
+    padding: 8px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    
+}
+#btn-save:hover{
+    background-color: aquamarine;
+}
+
+#saveEl{
+    
+    color: rgb(236, 4, 4);
+    font-weight: bold;
+    font-size: 30px;
+}
